@@ -19,7 +19,7 @@ make
 sudo make install
 ```
 ### add new cpp filenames in CMakeList.txt file.
-add_executable(example_copy examples/example_copy.cpp) \n
+add_executable(example_copy examples/example_copy.cpp) <br />
 target_link_libraries(example_copy ${EXTRA_LIBS})
      
 ### set(EXTRA_LIBS -pthread libunitree_legged_sdk_amd64.so lcm)
