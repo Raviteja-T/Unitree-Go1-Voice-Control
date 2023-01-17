@@ -1,7 +1,3 @@
-/*****************************************************************
- Copyright (c) 2020, Unitree Robotics.Co.Ltd. All rights reserved.
-******************************************************************/
-
 #include "unitree_legged_sdk/unitree_legged_sdk.h"
 #include <math.h>
 #include <iostream>
@@ -129,6 +125,7 @@ void Custom::RobotControl()
             }
             else if (line.find(word8) != std::string::npos) {
                 std::cout << "stop" << std::endl;
+                std::cout << "Thank you" << std::endl;
                 cmd.mode = 1;
             }
         }
