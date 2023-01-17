@@ -9,6 +9,6 @@ while(True):
         audio = sr.Recognizer().listen(source)
         print("Voice Recognizing ...")
         text = sr.Recognizer().recognize_google(audio)
-        file = open("/home/emcode/Desktop/GO1 Manuals/unitree_legged_sdk-3.5.1/build/command.txt", "w+")
+        file = open("/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/command.txt", "w+")
         file.write(str(text))
         file.close()

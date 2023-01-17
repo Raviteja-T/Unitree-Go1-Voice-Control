@@ -68,6 +68,7 @@ all: CMakeFiles/udp_recv_test.dir/all
 all: CMakeFiles/udp_send_test.dir/all
 all: CMakeFiles/example_copy.dir/all
 all: CMakeFiles/example_walk.dir/all
+all: CMakeFiles/example_editvoice.dir/all
 all: CMakeFiles/example_torque.dir/all
 all: CMakeFiles/example_velocity.dir/all
 all: CMakeFiles/example_wirelessHandle.dir/all
@@ -84,6 +85,7 @@ clean: CMakeFiles/udp_recv_test.dir/clean
 clean: CMakeFiles/udp_send_test.dir/clean
 clean: CMakeFiles/example_copy.dir/clean
 clean: CMakeFiles/example_walk.dir/clean
+clean: CMakeFiles/example_editvoice.dir/clean
 clean: CMakeFiles/example_torque.dir/clean
 clean: CMakeFiles/example_velocity.dir/clean
 clean: CMakeFiles/example_wirelessHandle.dir/clean
@@ -97,7 +99,7 @@ clean: CMakeFiles/example_position.dir/clean
 CMakeFiles/lcm_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcm_server.dir/build.make CMakeFiles/lcm_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcm_server.dir/build.make CMakeFiles/lcm_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=13,14 "Built target lcm_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=15,16 "Built target lcm_server"
 .PHONY : CMakeFiles/lcm_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -123,7 +125,7 @@ CMakeFiles/lcm_server.dir/clean:
 CMakeFiles/udp_recv_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_recv_test.dir/build.make CMakeFiles/udp_recv_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_recv_test.dir/build.make CMakeFiles/udp_recv_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=15,16 "Built target udp_recv_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=17,18 "Built target udp_recv_test"
 .PHONY : CMakeFiles/udp_recv_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,7 +151,7 @@ CMakeFiles/udp_recv_test.dir/clean:
 CMakeFiles/udp_send_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_send_test.dir/build.make CMakeFiles/udp_send_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_send_test.dir/build.make CMakeFiles/udp_send_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=17,18 "Built target udp_send_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=19,20 "Built target udp_send_test"
 .PHONY : CMakeFiles/udp_send_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -201,7 +203,7 @@ CMakeFiles/example_copy.dir/clean:
 CMakeFiles/example_walk.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_walk.dir/build.make CMakeFiles/example_walk.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_walk.dir/build.make CMakeFiles/example_walk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=9,10 "Built target example_walk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=11,12 "Built target example_walk"
 .PHONY : CMakeFiles/example_walk.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,13 +223,39 @@ CMakeFiles/example_walk.dir/clean:
 .PHONY : CMakeFiles/example_walk.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/example_editvoice.dir
+
+# All Build rule for target.
+CMakeFiles/example_editvoice.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_editvoice.dir/build.make CMakeFiles/example_editvoice.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_editvoice.dir/build.make CMakeFiles/example_editvoice.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=3,4 "Built target example_editvoice"
+.PHONY : CMakeFiles/example_editvoice.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example_editvoice.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example_editvoice.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles 0
+.PHONY : CMakeFiles/example_editvoice.dir/rule
+
+# Convenience name for target.
+example_editvoice: CMakeFiles/example_editvoice.dir/rule
+.PHONY : example_editvoice
+
+# clean rule for target.
+CMakeFiles/example_editvoice.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_editvoice.dir/build.make CMakeFiles/example_editvoice.dir/clean
+.PHONY : CMakeFiles/example_editvoice.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/example_torque.dir
 
 # All Build rule for target.
 CMakeFiles/example_torque.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_torque.dir/build.make CMakeFiles/example_torque.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_torque.dir/build.make CMakeFiles/example_torque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=5,6 "Built target example_torque"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=7,8 "Built target example_torque"
 .PHONY : CMakeFiles/example_torque.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +281,7 @@ CMakeFiles/example_torque.dir/clean:
 CMakeFiles/example_velocity.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_velocity.dir/build.make CMakeFiles/example_velocity.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_velocity.dir/build.make CMakeFiles/example_velocity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=7,8 "Built target example_velocity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=9,10 "Built target example_velocity"
 .PHONY : CMakeFiles/example_velocity.dir/all
 
 # Build rule for subdir invocation for target.
@@ -279,7 +307,7 @@ CMakeFiles/example_velocity.dir/clean:
 CMakeFiles/example_wirelessHandle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_wirelessHandle.dir/build.make CMakeFiles/example_wirelessHandle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_wirelessHandle.dir/build.make CMakeFiles/example_wirelessHandle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=11,12 "Built target example_wirelessHandle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=13,14 "Built target example_wirelessHandle"
 .PHONY : CMakeFiles/example_wirelessHandle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -305,7 +333,7 @@ CMakeFiles/example_wirelessHandle.dir/clean:
 CMakeFiles/example_position.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_position.dir/build.make CMakeFiles/example_position.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_position.dir/build.make CMakeFiles/example_position.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=3,4 "Built target example_position"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles --progress-num=5,6 "Built target example_position"
 .PHONY : CMakeFiles/example_position.dir/all
 
 # Build rule for subdir invocation for target.

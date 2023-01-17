@@ -30,6 +30,9 @@ target_link_libraries(example_wirelessHandle ${EXTRA_LIBS})
 add_executable(example_copy examples/example_copy.cpp)
 target_link_libraries(example_copy ${EXTRA_LIBS})
 
+add_executable(example_editvoice examples/example_editvoice.cpp)
+target_link_libraries(example_editvoice ${EXTRA_LIBS})
+
 # multi pc
 add_executable(udp_send_test examples/multi_pc_udp_send.cpp)
 target_link_libraries(udp_send_test ${EXTRA_LIBS})

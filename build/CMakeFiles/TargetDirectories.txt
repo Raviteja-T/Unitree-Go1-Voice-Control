@@ -4,6 +4,7 @@
 /home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles/udp_send_test.dir
 /home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles/example_copy.dir
 /home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles/example_walk.dir
+/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles/example_editvoice.dir
 /home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles/example_torque.dir
 /home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles/example_velocity.dir
 /home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/build/CMakeFiles/edit_cache.dir

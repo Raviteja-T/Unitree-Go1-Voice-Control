@@ -182,6 +182,19 @@ example_walk/fast:
 .PHONY : example_walk/fast
 
 #=============================================================================
+# Target rules for targets named example_editvoice
+
+# Build rule for target.
+example_editvoice: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example_editvoice
+.PHONY : example_editvoice
+
+# fast build rule for target.
+example_editvoice/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_editvoice.dir/build.make CMakeFiles/example_editvoice.dir/build
+.PHONY : example_editvoice/fast
+
+#=============================================================================
 # Target rules for targets named example_torque
 
 # Build rule for target.
@@ -256,6 +269,30 @@ examples/example_copy.s: examples/example_copy.cpp.s
 examples/example_copy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_copy.dir/build.make CMakeFiles/example_copy.dir/examples/example_copy.cpp.s
 .PHONY : examples/example_copy.cpp.s
+
+examples/example_editvoice.o: examples/example_editvoice.cpp.o
+.PHONY : examples/example_editvoice.o
+
+# target to build an object file
+examples/example_editvoice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_editvoice.dir/build.make CMakeFiles/example_editvoice.dir/examples/example_editvoice.cpp.o
+.PHONY : examples/example_editvoice.cpp.o
+
+examples/example_editvoice.i: examples/example_editvoice.cpp.i
+.PHONY : examples/example_editvoice.i
+
+# target to preprocess a source file
+examples/example_editvoice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_editvoice.dir/build.make CMakeFiles/example_editvoice.dir/examples/example_editvoice.cpp.i
+.PHONY : examples/example_editvoice.cpp.i
+
+examples/example_editvoice.s: examples/example_editvoice.cpp.s
+.PHONY : examples/example_editvoice.s
+
+# target to generate assembly for a file
+examples/example_editvoice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_editvoice.dir/build.make CMakeFiles/example_editvoice.dir/examples/example_editvoice.cpp.s
+.PHONY : examples/example_editvoice.cpp.s
 
 examples/example_position.o: examples/example_position.cpp.o
 .PHONY : examples/example_position.o
@@ -458,6 +495,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... example_copy"
+	@echo "... example_editvoice"
 	@echo "... example_position"
 	@echo "... example_torque"
 	@echo "... example_velocity"
@@ -469,6 +507,9 @@ help:
 	@echo "... examples/example_copy.o"
 	@echo "... examples/example_copy.i"
 	@echo "... examples/example_copy.s"
+	@echo "... examples/example_editvoice.o"
+	@echo "... examples/example_editvoice.i"
+	@echo "... examples/example_editvoice.s"
 	@echo "... examples/example_position.o"
 	@echo "... examples/example_position.i"
 	@echo "... examples/example_position.s"
