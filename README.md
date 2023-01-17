@@ -1,5 +1,4 @@
-# v3.5.1
-The unitree_legged_sdk is control by voice
+# The unitree_legged_sdk v3.5.1 is control by voice
 
 ### Notice
 support robot: Go1
