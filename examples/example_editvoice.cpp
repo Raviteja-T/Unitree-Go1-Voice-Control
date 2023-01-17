@@ -98,7 +98,7 @@ void Custom::RobotControl()
             else if (line.find(word4) != std::string::npos) {
                 std::cout << "come backward" << std::endl;
                 cmd.mode = 2;
-                cmd.gaitType = 1;
+                cmd.gaitType = 4;
                 cmd.velocity[0] = -0.2f; // -1  ~ +1
                 cmd.yawSpeed = 0;
                 cmd.footRaiseHeight = 0.1;
