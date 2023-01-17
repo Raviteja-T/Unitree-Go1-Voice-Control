@@ -18,7 +18,7 @@ cmake ../
 make
 sudo make install
 ```
-add new cpp filenames in CMakeList.txt file.
+### add new cpp filenames in CMakeList.txt file.
 eg : add_executable(example_copy examples/example_copy.cpp)
      target_link_libraries(example_copy ${EXTRA_LIBS})
      
