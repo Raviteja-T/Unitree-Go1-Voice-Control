@@ -5,10 +5,10 @@ The unitree_legged_sdk is control by voice
 support robot: Go1
 
 ### Dependencies
-* [Boost](http://www.boost.org) (version 1.5.4 or higher)
-* [CMake](http://www.cmake.org) (version 2.8.3 or higher)
+* [Boost](https://github.com/Raviteja-T/Unitree-Go1-Voice-Control/blob/main/Dependencies/install%20Boost.pdf)
+* [CMake](https://github.com/Raviteja-T/Unitree-Go1-Voice-Control/blob/main/Dependencies/CMake%20install.pdf)
 * [LCM](https://lcm-proj.github.io) (version 1.4.0 or higher)
-* [g++](https://gcc.gnu.org/) (version 8.3.0 or higher)
+* [g++](https://github.com/Raviteja-T/Unitree-Go1-Voice-Control/blob/main/Dependencies/G%2B%2B%20install.pdf)
 
 ```bash
 cd lcm-x.x.x
