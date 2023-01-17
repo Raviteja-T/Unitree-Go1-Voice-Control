@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -fPIC -rdynamic CMakeFiles/udp_send_test.dir/examples/multi_pc_udp_send.cpp.o -o udp_send_test   -L/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/lib  -Wl,-rpath,/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/lib -pthread -lunitree_legged_sdk_amd64 -llcm 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -fPIC -rdynamic CMakeFiles/example_wirelessHandle.dir/examples/example_wirelessHandle.cpp.o -o example_wirelessHandle   -L/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/lib  -Wl,-rpath,/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/lib -pthread -lunitree_legged_sdk_amd64 -llcm 

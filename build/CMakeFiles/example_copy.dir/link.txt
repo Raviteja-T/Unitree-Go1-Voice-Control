@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -fPIC -rdynamic CMakeFiles/example_copy.dir/examples/example_copy.cpp.o -o example_copy   -L/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/lib  -Wl,-rpath,/home/emcode/Desktop/gitrepo/Unitree-Go1-Voice-Control/lib -pthread -lunitree_legged_sdk_amd64 -llcm 
