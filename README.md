@@ -1,8 +1,8 @@
 # The unitree_legged_sdk v3.5.1 is control by voice
 
 ### Notice
-support robot: Go1
-OS : Ubuntu 20.04.5 LTS
+## support robot: Go1
+## OS : Ubuntu 20.04.5 LTS
 
 ### Dependencies
 * [Boost](https://github.com/Raviteja-T/Unitree-Go1-Voice-Control/blob/main/Dependencies/install%20Boost.pdf)
@@ -19,10 +19,10 @@ make
 sudo make install
 ```
 ### add new cpp filenames in CMakeList.txt file.
-eg : add_executable(example_copy examples/example_copy.cpp)
-     target_link_libraries(example_copy ${EXTRA_LIBS})
+add_executable(example_copy examples/example_copy.cpp)
+target_link_libraries(example_copy ${EXTRA_LIBS})
      
-*** set(EXTRA_LIBS -pthread libunitree_legged_sdk_amd64.so lcm) ***
+### set(EXTRA_LIBS -pthread libunitree_legged_sdk_amd64.so lcm)
 
 
 ### Build
